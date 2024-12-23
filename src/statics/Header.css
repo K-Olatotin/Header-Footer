@@ -1,0 +1,105 @@
+
+   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .logo {
+   font-size: 10px;
+   color: #0000ff;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .sign-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .sign-links a {
+    text-decoration: none;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .divider {
+    font-weight: bold;
+    color: #0000ff;
+  }
+  
+  .hamburger-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .sign-links {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .nav-links a,
+    .sign-links a {
+      font-size: 14px;
+    }
+  }
+  
+  .drawer-link {
+    display: block;
+    text-decoration: none;
+    color: #0000ff;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .drawer-link:hover {
+    text-decoration: underline;
+    color: #0000ff;
+  }
+  .signup-dropdown {
+    text-decoration: none;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .signup-dropdown:hover {
+    text-decoration: underline;
+  }
+  

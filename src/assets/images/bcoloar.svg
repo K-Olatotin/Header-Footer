@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#4A90E2" stroke="#FFFFFF" stroke-width="5"/>
+  
+  <!-- Text "B" -->
+  <text x="50%" y="40%" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#FFFFFF" font-weight="bold">
+    B
+  </text>
+  
+  <!-- Text "colar" -->
+  <text x="50%" y="65%" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#FFFFFF">
+    colar
+  </text>
+  
+  <!-- Optional Decorative Line -->
+  <line x1="25" y1="160" x2="175" y2="160" stroke="#FFFFFF" stroke-width="3" />
+</svg>
